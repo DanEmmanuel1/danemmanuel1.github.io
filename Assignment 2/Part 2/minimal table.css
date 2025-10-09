@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 10px 12px;
+}
+
+thead th {
+  background-color: #a9a9a9;
+  text-align: left;
+}
+
+tbody th {
+  background-color: #d0d0d0;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
