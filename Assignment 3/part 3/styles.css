@@ -1,0 +1,77 @@
+/*
+Name: Dan Emmanuel
+File: styles.css
+Date: 17 October 2025
+Description: Part 3 — CSS for the layout exercise from MDN “Fundamental layout comprehension”.
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+header {
+  background: #14213d;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fca311;
+}
+
+nav li {
+  flex: 1;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: #ffd60a;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.content {
+  flex: 2 1 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  flex: 1 1 250px;
+  background: #e5e5e5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #14213d;
+  color: #eee;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 20px;
+}
